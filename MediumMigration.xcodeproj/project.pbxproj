@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B16F51C9255343C000086297 /* SynthBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F51C8255343C000086297 /* SynthBackup.swift */; };
+		B16F51CC255343EB00086297 /* ContentViewBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F51CB255343EB00086297 /* ContentViewBackup.swift */; };
 		B18D13FF2550AF2000AAA7DA /* MediumMigrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D13FE2550AF2000AAA7DA /* MediumMigrationApp.swift */; };
 		B18D14012550AF2000AAA7DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18D14002550AF2000AAA7DA /* ContentView.swift */; };
 		B18D14032550AF2100AAA7DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18D14022550AF2100AAA7DA /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B16F51C8255343C000086297 /* SynthBackup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynthBackup.swift; sourceTree = "<group>"; };
+		B16F51CB255343EB00086297 /* ContentViewBackup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewBackup.swift; sourceTree = "<group>"; };
 		B18D13FB2550AF2000AAA7DA /* MediumMigration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumMigration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18D13FE2550AF2000AAA7DA /* MediumMigrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumMigrationApp.swift; sourceTree = "<group>"; };
 		B18D14002550AF2000AAA7DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			children = (
 				B18D13FE2550AF2000AAA7DA /* MediumMigrationApp.swift */,
 				B18D14002550AF2000AAA7DA /* ContentView.swift */,
+				B16F51CB255343EB00086297 /* ContentViewBackup.swift */,
 				B18D14142550AF4700AAA7DA /* Controllers */,
 				B18D140E2550AF3D00AAA7DA /* Audio */,
 				B18D14022550AF2100AAA7DA /* Assets.xcassets */,
@@ -79,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				B18D140F2550AF3D00AAA7DA /* Synth.swift */,
+				B16F51C8255343C000086297 /* SynthBackup.swift */,
 				B18D14102550AF3D00AAA7DA /* Oscillator.swift */,
 			);
 			path = Audio;
@@ -160,6 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16F51CC255343EB00086297 /* ContentViewBackup.swift in Sources */,
+				B16F51C9255343C000086297 /* SynthBackup.swift in Sources */,
 				B18D14112550AF3D00AAA7DA /* Synth.swift in Sources */,
 				B18D14012550AF2000AAA7DA /* ContentView.swift in Sources */,
 				B18D13FF2550AF2000AAA7DA /* MediumMigrationApp.swift in Sources */,
@@ -301,7 +309,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.JayPowersSliderSynth.MediumMigration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BullsEyeAustin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,7 +331,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.JayPowersSliderSynth.MediumMigration;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BullsEyeAustin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

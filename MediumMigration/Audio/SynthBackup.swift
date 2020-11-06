@@ -5,7 +5,7 @@
 //  Created by Grant Emerson on 7/21/19.
 //  Copyright © 2019 Grant Emerson. All rights reserved.
 //
-
+/*
 import AVFoundation
 
 class Synth {
@@ -108,3 +108,4 @@ class Synth {
     }
     
 }
+*/
